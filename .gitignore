@@ -1,0 +1,4 @@
+.env
+
+#no python files should be visible in this repo
+*.py
