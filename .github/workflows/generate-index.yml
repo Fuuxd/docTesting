@@ -1,14 +1,11 @@
 name: Generate Index Files
-
 on:
   push:
     branches: [ main ]
     # adjust paths to root folders for docs in repo
     paths: [ 'Docs_Help (Copy)/**' ]
-
 permissions:
   contents: write
-
 jobs:
   generate-index:
     runs-on: ubuntu-latest
@@ -16,24 +13,10 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: Generate index.json files
-      run: |
-        python3 - << 'EOF'
-        import os, json
-        def generate_index_files(root_dir):
-            for dirpath, dirnames, filenames in os.walk(root_dir):
-                dirnames[:] = [d for d in dirnames if not d.startswith('.')]
-                index_data = {
-                    "directories": dirnames,
-                    "files": [f for f in filenames if not f.startswith('.') and f != 'index.json']
-                }
-                with open(os.path.join(dirpath, 'index.json'), 'w') as f:
-                    json.dump(index_data, f, indent=2)
-        
-        generate_index_files('./docs')
-        EOF
+      run: python3 .github/scripts/generate_index.py "Docs_Help (Copy)"
     
     - name: Commit changes
-    # adjust git add with paths above.
+      # adjust git add with paths above.
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
