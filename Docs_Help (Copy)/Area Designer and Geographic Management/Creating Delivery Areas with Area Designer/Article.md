@@ -1,6 +1,6 @@
 # Creating Delivery Areas with Area Designer
 
-Use the Area Designer v3 to create custom delivery areas by drawing polygons on the interactive map.
+Use the Area Designer v3 to create custom delivery areas by drawing polygons on the interactive map. 
 
 ## Accessing Area Designer
 

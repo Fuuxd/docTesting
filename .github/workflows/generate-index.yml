@@ -4,25 +4,21 @@ on:
     branches: [ main ]
     # adjust paths to root folders for docs in repo
     paths: [ 'Docs_Help (Copy)/**' ]
-
-  workflow_dispatch:
-    
 permissions:
   contents: write
 jobs:
   generate-index:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Generate index.json files
       run: python3 .github/scripts/generate_index.py "Docs_Help (Copy)"
     
     - name: Commit changes
-      # adjust git add with paths above.
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add "Docs_Help (Copy)/**/index.json" "Docs_Help (Copy)/index.json"
+        git add . -- '**/index.json'
         git diff --staged --quiet || git commit -m "Auto-generate index.json files"
         git push
