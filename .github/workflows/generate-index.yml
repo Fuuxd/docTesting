@@ -1,0 +1,37 @@
+name: Generate Index Files
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'docs/**' ]
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Generate index.json files
+      run: |
+        python3 - << 'EOF'
+        import os, json
+        def generate_index_files(root_dir):
+            for dirpath, dirnames, filenames in os.walk(root_dir):
+                dirnames[:] = [d for d in dirnames if not d.startswith('.')]
+                index_data = {
+                    "directories": dirnames,
+                    "files": [f for f in filenames if not f.startswith('.') and f != 'index.json']
+                }
+                with open(os.path.join(dirpath, 'index.json'), 'w') as f:
+                    json.dump(index_data, f, indent=2)
+        
+        generate_index_files('./docs')
+        EOF
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/**/index.json
+        git diff --staged --quiet || git commit -m "Auto-generate index.json files"
+        git push
