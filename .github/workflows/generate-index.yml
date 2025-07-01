@@ -20,7 +20,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add "Docs_Help (Copy)/index.json" "Docs_Help (Copy)/**/index.json"
-        # Add more paths later for all directories in 'paths:'
+        git add "Docs_Help (Copy)/**/index.json"
+        git add "Docs_Help (Copy)/index.json"
         git diff --staged --quiet || git commit -m "Auto-generate index.json files"
         git push
