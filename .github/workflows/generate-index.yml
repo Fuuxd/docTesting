@@ -16,9 +16,11 @@ jobs:
       run: python3 .github/scripts/generate_index.py "Docs_Help (Copy)"
     
     - name: Commit changes
+      # adjust git add with paths above.
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add . -- '**/index.json'
+        git add "Docs_Help (Copy)/index.json" "Docs_Help (Copy)/**/index.json"
+        # Add more paths later for all directories in 'paths:'
         git diff --staged --quiet || git commit -m "Auto-generate index.json files"
         git push
