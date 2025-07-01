@@ -3,7 +3,10 @@ name: Generate Index Files
 on:
   push:
     branches: [ main ]
-    paths: [ 'docs/**' ]
+    paths: [ 'Docs_Help (Copy)/**' ]
+
+permissions:
+  contents: write
 
 jobs:
   generate-index:
