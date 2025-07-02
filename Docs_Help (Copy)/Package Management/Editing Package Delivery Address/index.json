@@ -1,7 +1,5 @@
 {
-  "directories": [
-    "images"
-  ],
+  "directories": [],
   "files": [
     "info.json",
     "Article.md"
