@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Setup and Administration/Adding and Configuring Users",
-    "Docs_Help/Setup and Administration/Understanding User Roles and Permission Levels"
+    "Setup and Administration/Adding and Configuring Users",
+    "Setup and Administration/Understanding User Roles and Permission Levels",
+    "Setup and Administration/Security Settings and Best Practices"
   ]
 }

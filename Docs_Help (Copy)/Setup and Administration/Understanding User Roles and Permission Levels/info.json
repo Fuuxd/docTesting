@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Setup and Administration/Adding and Configuring Users",
-    "Docs_Help/Getting Started/Understanding User Roles and Permissions"
+    "Setup and Administration/Adding and Configuring Users",
+    "Setup and Administration/Managing User Access and Security Settings",
+    "Setup and Administration/Bulk User Import and Management"
   ]
 }

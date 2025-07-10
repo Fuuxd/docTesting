@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Area Designer and Geographic Management/Area Designer V3 Overview",
-    "Docs_Help/Area Designer and Geographic Management/Drawing Custom Delivery Areas Using Polygon Tools"
+    "Area Designer and Geographic Management/Creating Delivery Areas with Area Designer",
+    "Area Designer and Geographic Management/Understanding Zones vs Operational Areas vs Delivery Areas",
+    "Area Designer and Geographic Management/Validating Addresses Within Service Areas"
   ]
 }

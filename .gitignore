@@ -2,6 +2,8 @@
 
 #no python files should be visible in this repo
 *.py
+*.pyc
+__pycache__
 
 #exception to above for github automation
 !.github/scripts/*

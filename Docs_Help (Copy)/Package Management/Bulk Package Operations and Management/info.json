@@ -5,8 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Package Management/Generating and Printing Shipping Labels",
-    "Docs_Help/Advanced Features and Integration/Import and Export Tools",
-    "Docs_Help/Package Management/Package Search and Filtering Techniques"
+    "Package Management/Generating and Printing Shipping Labels",
+    "Package Management/Importing Packages from CSV Files",
+    "Package Management/Editing Packages"
   ]
 }

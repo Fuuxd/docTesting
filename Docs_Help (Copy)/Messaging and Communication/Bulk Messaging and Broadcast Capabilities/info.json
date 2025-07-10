@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Messaging and Communication/Messaging Tools and Overview",
-    "Docs_Help/Messaging and Communication/Sending Messages to Drivers and Team Members"
+    "Messaging and Communication/Messaging Tools and Overview",
+    "Messaging and Communication/Sending Messages to Drivers and Team Members",
+    "Messaging and Communication/Setting Up Notifications for Important Events"
   ]
 }

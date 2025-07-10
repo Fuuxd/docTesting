@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Dashboard and Reporting/Understanding KPIs and Metrics",
-    "Docs_Help/Getting Started/Dashboard Overview"
+    "Dashboard and Reporting/Understanding KPIs and Metrics",
+    "Dashboard and Reporting/Understanding Delivery Success Rate Calculations",
+    "Dashboard and Reporting/Customizing and Filtering Your Dashboard"
   ]
 }

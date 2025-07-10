@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Messaging and Communication/Messaging Tools and Overview",
-    "Docs_Help/Package Management/Understanding Package Statuses and What They Mean"
+    "Messaging and Communication/Messaging Tools and Overview",
+    "Messaging and Communication/Setting Up Notifications for Important Events",
+    "Package Management/Tracking Packages"
   ]
 }

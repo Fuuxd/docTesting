@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Setup and Administration/Managing User Access and Security Settings",
-    "Docs_Help/Getting Started/Dashboard Overview"
+    "Setup and Administration/Managing User Access and Security Settings",
+    "Setup and Administration/Security Settings and Best Practices",
+    "Setup and Administration/Adding and Configuring Users"
   ]
 }

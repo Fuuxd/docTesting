@@ -5,7 +5,7 @@
   "ratingDenominator": 1,
   "views": 380,
   "relatedArticles": [
-    "Docs_Help/Package Management/Creating and Canceling Packages",
-    "Docs_Help/Package Management/Tracking Packages"
+    "Package Management/Creating and Canceling Packages",
+    "Package Management/Tracking Packages"
   ]
 }

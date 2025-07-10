@@ -5,8 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Package Management/Creating Your First Package",
-    "Docs_Help/Technical and Troubleshooting/Technical Troubleshooting - Common Issues and Solutions",
-    "Docs_Help/Package Management/Understanding Package Size and Weight Limits"
+    "Package Management/Creating and Canceling Packages",
+    "Technical and Troubleshooting/Technical Troubleshooting - Common Issues and Solutions",
+    "Package Management/Editing Packages"
   ]
 }

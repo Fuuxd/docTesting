@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Setup and Administration/Managing User Access and Security Settings",
-    "Docs_Help/Technical and Troubleshooting/Technical Troubleshooting - Common Issues and Solutions"
+    "Setup and Administration/Managing User Access and Security Settings",
+    "Technical and Troubleshooting/Technical Troubleshooting - Common Issues and Solutions",
+    "Setup and Administration/Understanding User Roles and Permission Levels"
   ]
 }

@@ -5,7 +5,8 @@
   "ratingDenominator": 5,
   "views": 0,
   "relatedArticles": [
-    "Docs_Help/Pickup Operations/Understanding Pickup Route Optimization",
-    "Docs_Help/Pickup Operations/Assigning Drivers to Pickup Routes"
+    "Pickup Operations/Understanding Pickup Route Optimization",
+    "Pickup Operations/Assigning Drivers to Pickup Routes",
+    "Pickup Operations/Scheduling Your First Pickup"
   ]
 }
