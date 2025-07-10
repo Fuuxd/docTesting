@@ -118,8 +118,8 @@ This repository is deployed automatically on push using GitHub Pages to prevent 
 
 ### Writing Articles
 
-1. **Use Clear Headings**: Structure content with proper markdown headings
-2. **Include Examples**: Provide code examples and screenshots where helpful
+1. **Organized and Methodical**: Structure content with proper markdown headings
+2. **Be Visual**: Provide screenshots where helpful
 3. **Keep It Concise**: Break long content into digestible sections
 4. **Use Lists**: Bullet points and numbered lists improve readability
 
@@ -139,7 +139,7 @@ Link related articles using their folder paths relative to the root:
 
 - **Category Icons**: Add `smallIcon.png` to category folders (48x48px recommended)
 - **Article Icons**: Add `iconSmall.png` and `iconBig.png` to article folders
-- **Content Images**: Reference images in markdown using relative paths
+- **Content Images**: Reference images in markdown using direct URLs
 
 ## Common Issues & Solutions
 
@@ -157,7 +157,7 @@ Link related articles using their folder paths relative to the root:
 ### Articles Not Loading
 - ✅ Check article folder structure
 - ✅ Ensure `info.json` contains required fields
-- ✅ Verify markdown file exists and is readable
+- ✅ Verify markdown file exists and is accessible in pages
 
 ### Related Articles Not Working
 - ✅ Use correct relative paths in `relatedArticles` array
