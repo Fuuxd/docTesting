@@ -1,3 +1,3 @@
 # Editing a Package's Delivery Information
 
-No previous documentation
+No previous documentation on this topic

@@ -29,6 +29,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
+    #make sure to add/change different needed directories here
     - name: Generate index.json files
       run: python3 .github/scripts/generate_index.py "Docs_Help (Copy)"
     
@@ -40,7 +41,7 @@ jobs:
         git diff --staged --quiet || git commit -m "Auto-generate index.json files"
         git push
 
-  # deploy job
+  # deploy to pages job
   deploy:
 
     needs: generate-index
