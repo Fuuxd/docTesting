@@ -1,12 +1,12 @@
 {
   "directories": [
-    "Dashboard and Reporting",
-    "Package Management",
-    "Pickup Operations",
-    "Carousel",
-    "Technical and Troubleshooting",
     "Area Designer and Geographic Management",
     "Setup and Administration",
+    "Pickup Operations",
+    "Carousel",
+    "Dashboard and Reporting",
+    "Technical and Troubleshooting",
+    "Package Management",
     "Messaging and Communication"
   ],
   "files": []

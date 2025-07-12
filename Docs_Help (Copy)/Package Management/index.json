@@ -2,13 +2,13 @@
   "directories": [
     "Generating and Printing Shipping Labels",
     "Creating and Canceling Packages",
-    "Editing Package Delivery Address",
-    "Bulk Package Operations and Management",
-    "Troubleshooting Package Creation Issues",
+    "Managing Package Photos",
     "Editing Packages",
     "Tracking Packages",
+    "Editing Package Delivery Address",
+    "Bulk Package Operations and Management",
     "Importing Packages from CSV Files",
-    "Managing Package Photos"
+    "Troubleshooting Package Creation Issues"
   ],
   "files": []
 }

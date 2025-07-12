@@ -1,11 +1,11 @@
 {
   "directories": [
-    "Resolving Application Performance Issues",
-    "Fixing Login and Authentication Problems",
-    "Mobile Device Usage and Optimization",
     "Clearing Cache and Cookies for Better Performance",
     "Technical Troubleshooting - Common Issues and Solutions",
-    "Browser Compatibility and Requirements"
+    "Browser Compatibility and Requirements",
+    "Fixing Login and Authentication Problems",
+    "Mobile Device Usage and Optimization",
+    "Resolving Application Performance Issues"
   ],
   "files": []
 }

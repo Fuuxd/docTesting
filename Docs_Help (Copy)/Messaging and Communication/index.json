@@ -1,10 +1,10 @@
 {
   "directories": [
+    "Messaging Tools and Overview",
+    "Bulk Messaging and Broadcast Capabilities",
     "Setting Up Notifications for Important Events",
     "Communicating with Customers About Deliveries",
-    "Bulk Messaging and Broadcast Capabilities",
-    "Sending Messages to Drivers and Team Members",
-    "Messaging Tools and Overview"
+    "Sending Messages to Drivers and Team Members"
   ],
   "files": []
 }

@@ -1,11 +1,11 @@
 {
   "directories": [
-    "AI-Powered Area Optimization",
-    "Creating Delivery Areas with Area Designer",
-    "Validating Addresses Within Service Areas",
-    "Importing Delivery Areas Using Postal Codes",
+    "Preventing and Resolving Area Overlaps",
     "Understanding Zones vs Operational Areas vs Delivery Areas",
-    "Preventing and Resolving Area Overlaps"
+    "AI-Powered Area Optimization",
+    "Importing Delivery Areas Using Postal Codes",
+    "Creating Delivery Areas with Area Designer",
+    "Validating Addresses Within Service Areas"
   ],
   "files": []
 }

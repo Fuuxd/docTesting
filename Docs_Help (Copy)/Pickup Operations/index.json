@@ -1,12 +1,12 @@
 {
   "directories": [
     "Handling Emergency and Urgent Pickups",
-    "Scheduling Your First Pickup",
-    "Setting Up Recurring Pickup Schedules",
     "Understanding Pickup Route Optimization",
+    "Scheduling Your First Pickup",
+    "Managing Vehicle Capacity Limits",
     "Monitoring and Troubleshooting Pickups",
-    "Assigning Drivers to Pickup Routes",
-    "Managing Vehicle Capacity Limits"
+    "Setting Up Recurring Pickup Schedules",
+    "Assigning Drivers to Pickup Routes"
   ],
   "files": []
 }

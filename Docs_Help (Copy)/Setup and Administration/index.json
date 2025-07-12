@@ -1,11 +1,11 @@
 {
   "directories": [
-    "Adding and Configuring Users",
+    "Managing User Access and Security Settings",
     "Preferences and Settings",
     "Security Settings and Best Practices",
     "Bulk User Import and Management",
-    "Managing User Access and Security Settings",
-    "Understanding User Roles and Permission Levels"
+    "Understanding User Roles and Permission Levels",
+    "Adding and Configuring Users"
   ],
   "files": []
 }
