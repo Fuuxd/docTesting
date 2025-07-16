@@ -46,7 +46,7 @@ portal/                    # Root documentation folder
         └── [icons and images]
 ```
 
-> An additional README.md file may be present in each article in order to allow for internal review from the GitHub repository.
+> An additional README.md file may be present in each article in order to allow for internal review from within the GitHub repository.
 
 ## Required Files
 
@@ -54,7 +54,7 @@ portal/                    # Root documentation folder
 
 Every directory must contain an `index.json` file that lists its contents:
 
-#### Root Directory Index (`Docs_Help (Copy)/index.json`):
+#### Root Directory Index (`portal/index.json`):
 ```json
 {
   "directories": ["Carousel", "Category1", "Category2"],
@@ -151,32 +151,9 @@ make sure to add the root directory to the main index.json in the root of the gi
 
 ```json
 {
-  "directories": ["Docs_Help (Copy)", "portal", "mobile", "New Root Directory"],
+  "directories": ["portal", "mobile", "New Root Directory"],
   "files": []
 }
 ```
 
 can be left unconfigured for widget, not for api
-
-## Common Issues & Solutions
-
-### 404 Errors
-- ✅ Ensure GitHub Pages is enabled
-- ✅ Check that all directories have `index.json` files
-- ✅ Verify file paths match exactly (case-sensitive)
-- ✅ Wait a few minutes for GitHub Pages to update after changes
-
-### Empty Categories/Articles
-- ✅ Check that `info.json` files exist and are valid JSON
-- ✅ Ensure `Article.md` files exist
-- ✅ Verify `index.json` files list the correct files
-
-### Articles Not Loading
-- ✅ Check article folder structure
-- ✅ Ensure `info.json` contains required fields
-- ✅ Verify markdown file exists and is accessible in pages
-
-### Related Articles Not Working
-- ✅ Use correct relative paths in `relatedArticles` array
-- ✅ Ensure referenced articles exist
-- ✅ Check for typos in article paths
