@@ -7,7 +7,7 @@ The repository containing all documentation for usage of the Nearfleet apps
 Nearfleet documentation in this repository follows this exact structure:
 
 ```
-Docs_Help (Copy)/                    # Root documentation folder
+portal/                    # Root documentation folder
 ├── index.json                      # Root directory index (REQUIRED)
 ├── Carousel/                       # Featured articles for home carousel
 │   ├── index.json                  # Carousel directory index (REQUIRED)
@@ -156,7 +156,7 @@ make sure to add the root directory to the main index.json in the root of the gi
 }
 ```
 
-can be left inconfigured for widget, not for api
+can be left unconfigured for widget, not for api
 
 ## Common Issues & Solutions
 
